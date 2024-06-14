@@ -19,18 +19,20 @@
         android:textColor="@color/buttonBackgroundColor"/>
 
         <Button
-            android:id="@+id/submitButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Submit"
-            tools:ignore="HardcodedText"
-            android:textAllCaps="true"/>
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button_text"
+        android:textAllCaps="true"
+        tools:ignore="HardcodedText" />
 
-        <TextView
-            android:id="@+id/errorLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#FF0000"
-            android:visibility="gone" />
+    <TextView
+        android:id="@+id/errorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:visibility="gone"
+        android:text="@string/error_message" />
+        
     </LinearLayout>
 
